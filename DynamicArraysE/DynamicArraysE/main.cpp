@@ -5,6 +5,7 @@
 #include "includes.h"
 #include "dynamicArray.h"
 #include "LinkedList.h"
+#include "hashing.h"
 
 unsigned int iterate = 0;
 
@@ -128,11 +129,13 @@ void linkedListTest()
 
 }
 
+
+
 int main()
 {
-	dynamicArrayTest();
-
-
+	
+	HashFunction::badHash("a",1);
+	HashFunction::RSHash("lolwut", 3);
 	system("PAUSE");
 	return 0;
 }
