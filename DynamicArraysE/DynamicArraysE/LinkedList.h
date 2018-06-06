@@ -46,9 +46,9 @@ public:
 	
 	// Makes Note
 	/// Makes Note but DARK 
-	//// Makes Note also
-	// <[Makes a box around note]>
-	/// <[Makes a GREY box around note]>
+	//// Makes Note that's collapsible
+	// <Makes a box around note>
+	/// <Makes a GREY box around note>
 
 
 	void pushFront(const T& value) {

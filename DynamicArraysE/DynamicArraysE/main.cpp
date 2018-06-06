@@ -85,7 +85,7 @@ void linkedListTest()
 	cout << m_linkedList1.count() << endl;
 	m_linkedList1.toString();
 	
-	/*m_linkedList1.popBack();
+	m_linkedList1.popBack();
 
 	cout << m_linkedList1.count() << endl;
 	m_linkedList1.toString();
@@ -125,7 +125,7 @@ void linkedListTest()
 
 	cout << m_linkedList1.count() << endl;
 	m_linkedList1.toString();
-	*/
+	
 
 }
 
@@ -133,9 +133,11 @@ void linkedListTest()
 
 int main()
 {
-	
-	HashFunction::badHash("a",1);
-	HashFunction::RSHash("lolwut", 3);
+	linkedListTest();
+
+
+	/*HashFunction::badHash("a",1);
+	HashFunction::RSHash("lolwut", 3);*/
 	system("PAUSE");
 	return 0;
 }
